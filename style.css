@@ -1,0 +1,125 @@
+body {
+    background-color: #1f2937;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */    
+}
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+a {
+    color: white;
+}
+.div1 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+}
+.hero {
+font-size: 48px;
+}
+.div2 {
+   
+   padding: 30px; 
+   background-color: white; 
+}
+.div3 {
+    background-color: #e5e7eb;
+    padding: 30px;
+    
+}
+.div4 {
+    background-color: white;
+    padding: 30px;
+}
+.whitext {
+    color: white;
+}
+
+
+/* subtext under images on div2 */
+.subwhite {
+    color: rgb(100, 100, 100)
+}
+
+
+.div2sec2 {
+    display: flex;       
+}
+.blucontainer {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.con {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    flex-direction: column; 
+    display: flex; 
+    align-items: center;
+}
+.con1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+.mainimg {
+    border-radius: 10px;;
+}
+.memberimg {
+    width: 150px;
+    border-radius: 10px;
+    border: rgb(51, 51, 155) solid;
+}
+.logo {
+    height: 70px;
+    width:  70px;
+    border-radius: 50%;
+}
+
+.button1 {
+    color: white;
+    font-size: 30px;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+    background-color: #3882f6;
+
+}
+
+.button2 {
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin-left: 10px;
+    
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+small {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
