@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-color: #1f2937;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -6,11 +7,13 @@ body {
     /* align-items: center; */    
 }
 header {
+    align-items: center;
     color: white;
     display: flex;
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
+    
 }
 a {
     color: white;
@@ -20,38 +23,50 @@ a {
     display: flex;
     color: white;
     justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
 .hero {
 font-size: 48px;
 }
 .div2 {
-   
-   padding: 30px; 
+   width: 100%;
+   /* padding: 30px;  */
    background-color: white; 
+   justify-content: space-between;
+
 }
 .div3 {
     background-color: #e5e7eb;
-    padding: 30px;
+    /* padding: 30px; */
     
 }
 .div4 {
     background-color: white;
     padding: 30px;
 }
-.whitext {
+.footer {
+    padding: 2rem;
+    align-items: center;
     color: white;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
-
-
 /* subtext under images on div2 */
 .subwhite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: rgb(100, 100, 100)
 }
 
-
 .div2sec2 {
-    display: flex;       
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 .blucontainer {
     background-color: #3882f6;
@@ -63,19 +78,19 @@ font-size: 48px;
     border-radius: 10px;
 }
 .con {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
     margin-left: 15%;
     margin-right: 15%;
-
-    flex-direction: column; 
-    display: flex; 
-    align-items: center;
 }
 .con1 {
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
     margin-bottom: 5%;
+    margin-top: 5%;
     display: flex;
     align-items: center;
+    
 }
 .mainimg {
     border-radius: 10px;;
@@ -112,6 +127,7 @@ font-size: 48px;
     
 }
 .quote {
+    width: 100%;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
