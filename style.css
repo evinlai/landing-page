@@ -112,6 +112,7 @@ font-size: 48px;
 }
 .herowrap {
     width: 100%;
+    margin: 1%;
 }
 .con1 {
     width: 100%;
@@ -162,9 +163,11 @@ font-size: 48px;
     font-style: italic;
     font-weight: lighter;
 }
-small {
+.toRight {
+    color:rgb(61, 61, 61);
     font-size: 28px;
     font-weight: bold;
+    justify-content: flex-end;
 }
 
 .subtext {
