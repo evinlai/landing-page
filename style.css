@@ -1,12 +1,10 @@
 body {
-    margin: auto;
-    
+    margin: 0;
     width: 100%;
     background-color: #1f2937;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */    
 }
 
 header {
@@ -23,6 +21,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 ul {
     display: flex;
     padding: 0;
@@ -32,6 +31,11 @@ li {
     margin: .5em;
     padding: 0;
 }
+li :hover {
+    border-bottom: solid 2px;
+}
+
+
 .div1 {
     display: flex;
     color: white;
@@ -41,11 +45,11 @@ li {
     
 }
 .hero {
-font-size: 48px;
+    margin: .25em .25em .25em 0;
+    font-size: 48px;
 }
 .div2 {
    width: 100%;
-   /* padding: 30px;  */
    background-color: white; 
    justify-content: space-between;
 
@@ -53,12 +57,11 @@ font-size: 48px;
 .div3 {
     background-color: #e5e7eb;
     width: 100%;
-    /* padding: 30px; */
     
 }
 .div4 {
     background-color: white;
-    padding: 30px;
+    padding: 5em;
 }
 .footer {
     padding: 2rem;
@@ -68,7 +71,7 @@ font-size: 48px;
     flex-direction: column; 
     align-items: center;
 }
-/* subtext under images on div2 */
+/* center subtext under images on div2 */
 .subwhite {
     display: flex;
     flex-direction: column;
@@ -106,7 +109,6 @@ font-size: 48px;
 .con1 {
     width: 100%;
     margin-bottom: 5%;
-    margin-top: 5%;
     display: flex;
     align-items: center;
 
@@ -146,6 +148,9 @@ font-size: 48px;
     
     
 }
+
+
+/* Quote section */
 .quote {
     width: 100%;
     font-size: 36px;
@@ -175,6 +180,10 @@ font-size: 48px;
 p {
     text-align: justify;
 }
+
+
+
+
 @media (max-width: 900px) {
     .div2sec2{
     width: 100%;
