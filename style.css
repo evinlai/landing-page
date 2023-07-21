@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     width: 100%;
@@ -8,13 +11,13 @@ body {
 }
 
 header {
-    margin-top: 1em;
     align-items: center;
     color: white;
     display: flex;
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
+    height: 5vh;
     
 }
 a {
@@ -42,6 +45,7 @@ li :hover {
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
+    height: 95vh;
     
 }
 .hero {
@@ -52,25 +56,41 @@ li :hover {
    width: 100%;
    background-color: white; 
    justify-content: space-between;
+   height: 100vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .div3 {
     background-color: #e5e7eb;
     width: 100%;
-    
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .div4 {
     background-color: white;
-    padding: 5em;
+    /* padding: 5em; */
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer {
-    padding: 2rem;
+    /* padding: 2rem; */
     align-items: center;
     color: white;
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    justify-content: center;
+    height: 5vh;
 }
+
+
 /* center subtext under images on div2 */
 .subwhite {
     display: flex;
@@ -191,6 +211,24 @@ p {
     flex-direction: column;
     justify-content: space-evenly;
     }
+    .subwhite {
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        height: 100vh; 
+    }
+    .div2 {
+        height: auto;
+    }
+    .div3 {
+        height: 100vh;    
+    }
+    .div4 {
+        height: 95vh;
+    }
+    .footer {
+        height: 5vh;
+    }
     .con1 {
     width: 100%;
     display: flex;
@@ -203,7 +241,11 @@ p {
     flex-direction: column;
     justify-content: space-evenly;   
     }
+    .div1 {
+        height: 85vh;;
+    }
     header {
+        height: 15vh;
         flex-direction: column;
     }
     .button1 {   
@@ -225,5 +267,11 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .logos {
+        height: 30%;
+    }
+    .nav {
+        height: 70%;
     }
 }
